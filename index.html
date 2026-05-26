@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="ImmerIris is a large-scale dataset and benchmark for off-axis and unconstrained iris recognition in immersive applications."
+    />
+    <title>ImmerIris</title>
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="ImmerIris home">
+        <span class="brand-mark"></span>
+        <span>ImmerIris</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#dataset">Dataset</a>
+        <a href="#benchmark">Benchmark</a>
+        <a href="#method">Method</a>
+        <a href="#citation">Citation</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/teaser.png" alt="" />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">CVPR 2026 Oral · Award Candidate</p>
+          <h1>ImmerIris</h1>
+          <p class="subtitle">
+            A large-scale public iris dataset for off-axis and unconstrained recognition in immersive XR applications.
+          </p>
+          <div class="award-strip" aria-label="Publication highlights">
+            <span>CVPR 2026 Oral</span>
+            <span>Award Candidate</span>
+            <span>Dataset and Benchmark</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="2510.10113v3.pdf">Paper PDF</a>
+            <a class="button" href="#dataset-request">Apply for Dataset Access</a>
+            <a class="button ghost" href="#citation">BibTeX</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="quick-stats" aria-label="Dataset summary">
+        <div>
+          <strong>499,791</strong>
+          <span>ocular images</span>
+        </div>
+        <div>
+          <strong>546</strong>
+          <span>subjects</span>
+        </div>
+        <div>
+          <strong>9 x 11</strong>
+          <span>gaze by brightness</span>
+        </div>
+        <div>
+          <strong>42%</strong>
+          <span>challenging samples</span>
+        </div>
+        <div>
+          <strong>8</strong>
+          <span>protocols</span>
+        </div>
+      </section>
+
+      <section class="section intro-grid">
+        <div class="section-copy">
+          <p class="eyebrow">Why It Matters</p>
+          <h2>Iris recognition changes once the camera moves into a headset.</h2>
+          <p>
+            Traditional iris systems assume a frontal camera, guided acquisition, and cooperative users. In immersive
+            applications, headset cameras capture ocular images from the side while users naturally move their gaze and
+            experience changing illumination.
+          </p>
+        </div>
+        <article class="image-card wide-card">
+          <img src="assets/fig_2.png" alt="Comparison between traditional iris recognition and immersive iris recognition." />
+        </article>
+      </section>
+
+      <section id="dataset" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Dataset</p>
+          <h2>Built for immersive recognition, not laboratory capture.</h2>
+          <p>
+            ImmerIris uses a VR headset to reproduce the visual geometry and user behavior of real XR interaction.
+            The resulting images include perspective distortion, intra-subject variation, and quality degradation.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <img src="assets/fig_8.png" alt="A volunteer wearing the VR headset during acquisition." />
+            <div>
+              <h3>Headset Acquisition</h3>
+              <p>
+                A consumer HMD collects near-infrared ocular images with side-mounted cameras while subjects interact
+                with a gaze-guided display.
+              </p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/fig_4.png" alt="Nine gaze points shown with ocular samples." />
+            <div>
+              <h3>Gaze Variation</h3>
+              <p>
+                Subjects fixate on a 3 by 3 grid, producing the off-axis changes that make immersive iris recognition
+                difficult.
+              </p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <img src="assets/fig_5.png" alt="Examples of degraded ocular samples." />
+            <div>
+              <h3>Open-Scene Quality</h3>
+              <p>
+                The benchmark retains realistic degradations, including occlusion, dilation, reflection, extreme gaze,
+                and motion blur.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="dataset-request" class="section request-section">
+        <div>
+          <p class="eyebrow">Dataset Access</p>
+          <h2>Request access to ImmerIris.</h2>
+          <p>
+            The public release will be managed through a formal application form for research use. This entry point is
+            ready for the official form link once it is available.
+          </p>
+        </div>
+        <a class="request-card" href="#" aria-label="Dataset access form placeholder">
+          <span>Dataset Access Form</span>
+          <strong>Coming Soon</strong>
+        </a>
+      </section>
+
+      <section class="section split-section">
+        <div class="panel-copy">
+          <p class="eyebrow">Cleaning and Annotation</p>
+          <h2>From raw headset capture to benchmark-ready samples.</h2>
+          <p>
+            The pipeline removes severe failures, keeps normal-quality samples, and scores remaining images across six
+            quality dimensions. These annotations drive protocols that isolate individual factors and combine them into
+            realistic operating modes.
+          </p>
+          <div class="mini-list">
+            <span>Eyelid and eyelash occlusion</span>
+            <span>Dilated pupil and extreme gaze</span>
+            <span>Specular reflection and motion blur</span>
+          </div>
+        </div>
+        <article class="image-card">
+          <img src="assets/fig_10.png" alt="Dataset cleaning and quality assessment pipeline." />
+        </article>
+      </section>
+
+      <section id="benchmark" class="section protocol-section">
+        <div class="section-heading">
+          <p class="eyebrow">Benchmark</p>
+          <h2>Eight protocols expose where current iris systems fail.</h2>
+        </div>
+        <div class="protocol-grid">
+          <article>
+            <span>Isolated</span>
+            <h3>Occlusion</h3>
+            <p>Tests partially covered iris texture from eyelids and eyelashes.</p>
+          </article>
+          <article>
+            <span>Isolated</span>
+            <h3>Dilation</h3>
+            <p>Measures the effect of pupil expansion on surrounding iris texture.</p>
+          </article>
+          <article>
+            <span>Isolated</span>
+            <h3>Light</h3>
+            <p>Pairs low- and high-brightness captures to reveal illumination shifts.</p>
+          </article>
+          <article>
+            <span>Isolated</span>
+            <h3>Gaze</h3>
+            <p>Focuses on geometry changes caused by different gaze points.</p>
+          </article>
+          <article>
+            <span>Combined</span>
+            <h3>Control</h3>
+            <p>Off-axis capture with fixed gaze and normal-quality samples.</p>
+          </article>
+          <article>
+            <span>Combined</span>
+            <h3>Fix</h3>
+            <p>Fixed gaze with realistic quality degradations included.</p>
+          </article>
+          <article>
+            <span>Combined</span>
+            <h3>Select</h3>
+            <p>Natural gaze while excluding the most extreme gaze directions.</p>
+          </article>
+          <article>
+            <span>Combined</span>
+            <h3>Any</h3>
+            <p>Fully unconstrained pairing for open-scene immersive recognition.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="method" class="section method-section">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">NormFree</p>
+          <h2>A simpler recognition path: crop the iris region and learn directly.</h2>
+          <p>
+            Instead of unwrapping the iris into a normalized texture, NormFree uses a robust bounding box crop and a
+            face-recognition-style feature extractor trained with an angular-margin objective.
+          </p>
+        </div>
+        <article class="image-card full-card">
+          <img src="assets/fig_11.png" alt="Comparison of traditional normalization-based iris recognition and the NormFree pipeline." />
+        </article>
+      </section>
+
+      <section class="section results-section">
+        <div class="section-heading">
+          <p class="eyebrow">Results</p>
+          <h2>Normalization-free learning stays competitive under immersive conditions.</h2>
+          <p>
+            Existing normalization-based methods degrade sharply as protocols become less constrained. NormFree ranks
+            first or second in most verification settings and remains strong across identification protocols.
+          </p>
+        </div>
+        <div class="results-grid">
+          <article class="image-card">
+            <img src="assets/result_1.png" alt="Verification results on combined ImmerIris protocols." />
+          </article>
+          <article class="image-card">
+            <img src="assets/result_2.png" alt="Verification results on isolated ImmerIris challenge protocols." />
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery-section">
+        <div class="gallery-copy">
+          <p class="eyebrow">Sample Gallery</p>
+          <h2>Off-axis ocular images reveal the real texture of the problem.</h2>
+        </div>
+        <div class="gallery-grid">
+          <img src="assets/fig_1.png" alt="A grid of ImmerIris ocular image samples." />
+          <img src="assets/fig_7.png" alt="A wide strip of ImmerIris ocular image samples." />
+        </div>
+      </section>
+
+      <section id="citation" class="section citation-section">
+        <div>
+          <p class="eyebrow">Citation</p>
+          <h2>Reference</h2>
+          <p>
+            Yuxi Mi, Qiuyang Yuan, Zhizhou Zhong, Xuan Zhao, Jiaogen Zhou, Fubao Zhu, Jihong Guan, and Shuigeng Zhou.
+            ImmerIris: A Large-Scale Dataset and Benchmark for Off-Axis and Unconstrained Iris Recognition in Immersive
+            Applications. CVPR 2026.
+          </p>
+        </div>
+        <pre><code>@inproceedings{mi2026immeriris,
+  title     = {ImmerIris: A Large-Scale Dataset and Benchmark for Off-Axis and Unconstrained Iris Recognition in Immersive Applications},
+  author    = {Mi, Yuxi and Yuan, Qiuyang and Zhong, Zhizhou and Zhao, Xuan and Zhou, Jiaogen and Zhu, Fubao and Guan, Jihong and Zhou, Shuigeng},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year      = {2026}
+}</code></pre>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>ImmerIris</span>
+      <span>Large-scale immersive iris recognition dataset and benchmark.</span>
+    </footer>
+  </body>
+</html>
