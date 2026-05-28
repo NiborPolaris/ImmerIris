@@ -1,9 +1,15 @@
 [![Conference](https://img.shields.io/badge/CVPR-2026-brightgreen)](#citation)
+[![arXiv](https://img.shields.io/badge/arXiv-2510.10113-b31b1b.svg)](https://arxiv.org/abs/2510.10113)
+[![Presentation](https://img.shields.io/badge/CVPR%202026-Oral-gold)](#overview)
+[![Recognition](https://img.shields.io/badge/Award-Candidate-red)](#overview)
 [![Type](https://img.shields.io/badge/Project-Dataset%20%26%20Benchmark-blue)](#overview)
 [![Task](https://img.shields.io/badge/Task-Iris%20Recognition-orange)](#benchmark)
 
 # ImmerIris
 This repository presents **ImmerIris**, a large-scale public iris dataset and benchmark for **off-axis** and **unconstrained** recognition in immersive XR applications.
+
+**Paper:** [ImmerIris on arXiv](https://arxiv.org/abs/2510.10113)  
+**Status:** **CVPR 2026 Oral** and **Award Candidate**
 
 <p align="center">
   <img src="assets/teaser.png" alt="ImmerIris teaser" width="100%">
@@ -13,6 +19,8 @@ This repository presents **ImmerIris**, a large-scale public iris dataset and be
 Traditional iris recognition usually assumes frontal capture, controlled lighting, and cooperative users. In immersive applications, however, headset-mounted cameras observe the eye from the side while users naturally change gaze direction and interact in dynamic scenes.
 
 **ImmerIris** is built to study this setting directly. It provides realistic off-axis ocular images, challenging quality variations, and a benchmark that exposes where current iris recognition systems fail under immersive conditions.
+
+Our paper is available on arXiv: [https://arxiv.org/abs/2510.10113](https://arxiv.org/abs/2510.10113). The work was selected as a **CVPR 2026 Oral** presentation and is also an **Award Candidate**.
 
 ## Highlights
 - **499,791 ocular images** collected from **546 subjects**.
