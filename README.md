@@ -63,6 +63,8 @@ Factors considered in the benchmark include:
 ## Benchmark
 ImmerIris defines **8 protocols** to evaluate immersive iris recognition.
 
+**Benchmark protocol download:** [Google Drive](https://drive.google.com/file/d/1j8oTcBEyCh4KMu3-Gn5gbxvG_fI6jdOP/view?usp=drive_link)
+
 ### Isolated Protocols
 - **Occlusion**: tests partially covered iris texture.
 - **Dilation**: measures changes caused by pupil expansion.
@@ -74,6 +76,8 @@ ImmerIris defines **8 protocols** to evaluate immersive iris recognition.
 - **Fix**: fixed gaze with realistic degradations.
 - **Select**: natural gaze while excluding the most extreme directions.
 - **Any**: fully unconstrained pairing for open-scene immersive recognition.
+
+You can download the released **benchmark protocol files** from the link above.
 
 ## Method: NormFree
 Along with the benchmark, we present **NormFree**, a normalization-free recognition pipeline.
