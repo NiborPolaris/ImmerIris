@@ -1,5 +1,4 @@
-[![Presentation](https://img.shields.io/badge/CVPR%202026-Oral-gold)](#overview)
-[![arXiv](https://img.shields.io/badge/arXiv-2510.10113-b31b1b.svg)](https://arxiv.org/abs/2510.10113)
+
 
 <h1 align="center">ImmerIris</h1>
 
@@ -9,6 +8,11 @@
 
 <p align="center">
   <em>CVPR 2026 Award Candidate & Oral Presentation</em>
+</p>
+
+<p align="center">
+  <a href="#overview"><img src="https://img.shields.io/badge/CVPR%202026-Award Candidate-gold" alt="CVPR 2026 Oral"></a>
+  <a href="https://arxiv.org/abs/2510.10113"><img src="https://img.shields.io/badge/arXiv-2510.10113-b31b1b.svg" alt="arXiv"></a>
 </p>
 
 <p align="center">
