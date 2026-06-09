@@ -131,3 +131,13 @@ If you use **ImmerIris** in your research, please cite:
   year      = {2026}
 }
 ```
+
+## 🙏 Acknowledgements
+
+ImmerIris would not have been possible without the help of many people. 
+
+- We sincerely thank all volunteers who contributed to the dataset collection.
+- We thank Yuge Huang, Jianqing Xu, and Jiazhen Ji for helpful discussions.
+- We thank <a href="https://weijianze.github.io/">Jianze Wei</a> (IME, CAS) and <a href="https://academia.caiyong.wang/">Caiyong Wang</a> (BUCEA) for their support in accessing existing datasets and recognition methods. 
+- We are grateful to the student operators who managed the data acquisition process: Yang Zhao (Fudan), Sijing Shen, Qi Shi, Yongwen Huang, Jingwen Feng, Pengshuai Lu, Jiaqi Gong, Tianyang Xu (HYNU), Yang Zhang, Xiangyu Wang, Yihan Wang, Huaye Liu, Zhiquan Niu, Xiangyu Liu, Zhanyuan Jia, Yilin Li, Zhenyang Zhao, Zhenxu Wang, Mohan Zhang, Xingyu Yin, Yiming Liu, Yiyi Yang, Heran Ma, Xintong Guan, Yinqi Zhao, Jinghan Guo, Xianghan Yang, Na Yu, Xiaokun Jin, Ziyu Chen, Qinghe Qi, Ziyi Li, Shuxian Chi, Yaodong Pan, Jinyuan Zhu, and Yujia Cao (ZZULI).
+- We thank Zhengqi Ren (PKU) for legal consultation.
